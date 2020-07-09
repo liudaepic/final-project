@@ -1,0 +1,159 @@
+h1,h2,h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 50px
+}
+
+p,a{
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+
+.small-white{
+	color: white;
+	text-shadow: 3px 3px 3px rgb(0,0,0);
+	font-size: 15px;
+}
+
+.big-white{
+	color: white;
+	text-shadow: 8px 8px 8px rgb(0,0,0);
+	font-size: 50px;
+}
+
+.container{
+	margin-top: 100px;
+	width: auto;
+	height: 500px;
+	display: inline-flex;
+}
+
+.margin{
+	margin-bottom: 8px;
+}
+
+.banner{
+	background-image: url("images/Background.png");
+	background-size: cover;
+	background-position: center;
+	padding: 60px 0px;
+	text-align: center;
+	height: 900px;
+}
+
+
+
+.card{
+	background-color: rgb(245,245,245);
+	width: 329px;
+	height: 347px;
+	margin-left: 41px;
+	align-content: center;
+	border-radius: 10px;
+	margin-right: 0px;
+	box-shadow: 8px 8px 8px rgb(20,20,20);
+	display: inline-block;
+}
+
+.card-image1{
+	width: 299px;
+	height: 250px;
+	background-image: url(images/Players.png);
+	background-position: center top;
+	margin: 15px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.card-image2{
+	width: 299px;
+	height: 250px;
+	background-image: url(images/Teams.png);
+	background-position: center;
+	margin: 15px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.card-image3{
+	width: 299px;
+	height: 250px;
+	background-image: url(images/Stathead.png);
+	background-position: center;
+	margin: 15px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.partition{
+	width: 329px;
+	height: 1px;
+	background-color: black
+}
+
+.info{
+	width: 329px;
+	display: inline-flex;
+	justify-content: center;
+}
+
+.avatar{
+	display: inline-flex;
+}
+
+.user{
+	margin-left: 8px;
+	margin-right: 0px;
+	margin-top: 8px;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.profile{
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 8px;
+	background-color: rgb(141,0,12);
+	color: white;
+	padding-top: 14px;
+	padding-bottom: 18px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 10px;
+	justify-content: center;
+	font-size: 18px;
+}
+
+.profile:hover{
+	background-color: rgb(20,20,20);
+	text-decoration: none;
+	color: white;
+	transition: 0.5s;
+}
+
+.description{
+	margin-top: 20px;
+}
+
+@media(max-width: 960px){
+	.container{
+		width: auto;
+		display: inline-grid;
+		justify-content: center;
+	}
+}
+
+@media(max-width: 720px){
+	.container{
+		width: auto;
+		display: inline-grid;
+		justify-content: center;
+	}
+}
+
+@media(max-width: 540px){
+	.container{
+		width: auto;
+		display: inline-grid;
+		justify-content: center;
+	}
+}
